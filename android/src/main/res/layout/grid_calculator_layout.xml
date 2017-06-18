@@ -26,68 +26,88 @@
 
     <Button
         android:id="@+id/seven_btn"
-        android:text="@string/seven_char" />
+        android:text="@string/seven_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/eight_btn"
-        android:text="@string/eight_char" />
+        android:text="@string/eight_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/nine_btn"
-        android:text="@string/nine_char" />
+        android:text="@string/nine_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/four_btn"
-        android:text="@string/four_char" />
+        android:text="@string/four_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/five_btn"
-        android:text="@string/five_char"/>
+        android:text="@string/five_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/six_btn"
-        android:text="@string/six_char" />
+        android:text="@string/six_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/one_btn"
-        android:text="@string/one_char" />
+        android:text="@string/one_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/two_btn"
-        android:text="@string/two_char" />
+        android:text="@string/two_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/three_btn"
-        android:text="@string/three_char" />
+        android:text="@string/three_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/dot_btn"
-        android:text="@string/dot_char" />
+        android:text="@string/dot_char"
+        android:textSize="@dimen/font_btn_size"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
 
     <Button
         android:id="@+id/zero_btn"
-        android:text="@string/zero_char"/>
+        android:text="@string/zero_char"
+        android:textSize="@dimen/font_btn_size" />
 
     <Button
         android:id="@+id/remove_btn"
-        android:text="@string/remove_char" />
+        android:text="@string/remove_char"
+        android:textSize="@dimen/font_btn_size"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
 
     <Button
         android:id="@+id/plus_btn"
         android:layout_gravity="start"
         android:layout_columnSpan="1"
-        android:text="@string/plus_char" />
+        android:text="@string/plus_char"
+        android:textSize="@dimen/font_btn_size"
+        style="@style/Widget.AppCompat.Button.Colored"/>
 
     <Button
         android:id="@+id/minus_btn"
         android:text="@string/minus_char"
         android:layout_columnSpan="2"
-        android:layout_gravity="end"/>
+        android:layout_gravity="end"
+        android:textSize="@dimen/font_btn_size"
+        style="@style/Widget.AppCompat.Button.Colored"/>
 
     <Button
         android:id="@+id/equals_btn"
         android:layout_columnSpan="3"
         android:layout_gravity="fill"
-        android:text="@string/equals_char" />
+        android:text="@string/equals_char"
+        android:textSize="@dimen/font_btn_size"
+        style="@style/Widget.AppCompat.Button.Colored"/>
 
 </GridLayout>
