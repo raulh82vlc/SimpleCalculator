@@ -33,5 +33,6 @@
         <item name="android:layout_margin">@dimen/margin_small</item>
     </style>
 
-    <dimen name="font_size">14sp</dimen>
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="font_btn_size">18sp</dimen>
 </resources>
