@@ -6,6 +6,9 @@ as well as `Dagger 2` for *Dependency Injection*, trying to respect *SOLID princ
 ### Logo
 ![Logo](./art/calculator.png)
 
+### Screenshots
+![screencast 1](./art/screen0.png)![screencast 2](./art/screen1.png)
+
 ## Overview
 At this open-source project, it is decoupled between `android` and `domain` modules or high level layers.
 
@@ -26,28 +29,28 @@ Finally, this information would be passed through the UI thread.
 ### Features
 - When the app opens a calculator interface is displayed to the user.
 - The calculator should have buttons for:
- - Numbers 0 to 9
- - Decimal point
- - Addition
- - Subtraction
- - Equals (to see the result)
+  - Numbers 0 to 9
+  - Decimal point
+  - Addition
+  - Subtraction
+  - Equals (to see the result)
 - As the buttons are pressed, they are entered into the output view at the top.
 - Once, the user presses the “=” key, then the result is computed and displayed in the output field.
- - For example: For input: 1 2 + 6 5 - 7 Then, the output view would now display: 12+65-7
- - When “=” is pressed, the output view would now display: 70
- - After the result has been calculated if either “+” or ”-” is selected, then this operation will be applied to the result currently displayed in the output view.
- - For example: The output view currently displays: 70
- - For input: + 1 6 - 2 Then, the output view would now display: 70+16-2
- - When “=” is pressed, the output view would now display: 84
+  - For example: For input: 1 2 + 6 5 - 7 Then, the output view would now display: 12+65-7
+  - When “=” is pressed, the output view would now display: 70
+  - After the result has been calculated if either “+” or ”-” is selected, then this operation will be applied to the result currently displayed in the output view.
+  - For example: The output view currently displays: 70
+  - For input: + 1 6 - 2 Then, the output view would now display: 70+16-2
+  - When “=” is pressed, the output view would now display: 84
 - A Loader is placed each time a read of operations or calculation is started, to indicate the user the fact that there is an action going on (when too quick is not visible)
 - There are Unit test cases for the most critical parts:
- - The strategy for calculating after and parsing inputs from the screen (domain)
- - Characters validation for combinations like:
-  - user press + & + then only one + is on screen
-  - user press + & - then only one - is on screen
-  - user press - & - then only one + is on screen
-  - user press . with a + before, then 0. is on screen
- - Strings transformation tests for checking correctness
+  - The strategy for calculating after and parsing inputs from the screen (domain)
+  - Characters validation for combinations like:
+   - user press + & + then only one + is on screen
+   - user press + & - then only one - is on screen
+   - user press - & - then only one + is on screen
+   - user press . with a + before, then 0. is on screen
+  - Strings transformation tests for checking correctness
 - Includes a < which is responsible of cleaning the screen when something is wrong or starting a new operation
 
 ### SDK support
